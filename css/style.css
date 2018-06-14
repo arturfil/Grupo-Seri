@@ -1,0 +1,41 @@
+/* General Classes */
+
+.elegant {
+    font-family: 'Adamina', sans-serif;
+}
+
+/* Nav-bar */
+
+.navbar .nav-item.active {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-left: #1a0077 3px solid !important;
+}
+
+.navbar .nav-link {
+    font-size: 16px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+/* Carousel */
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('../img/image2.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('../img/image3.jpg');
+    background-size: cover;
+}
