@@ -4,6 +4,10 @@
     font-family: 'Adamina', sans-serif;
 }
 
+.nav {
+    background-color: white;
+}
+
 /* Nav-bar */
 
 .navbar .nav-item.active {
@@ -19,6 +23,28 @@
     padding-right: 1rem !important;
 }
 
+/* landing page */
+
+#landing-page {
+    background-image: url("../img/image3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+#landing-page h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.header-overlay {
+    background-color: rgba(85, 80, 80, 0.5);
+    background-size: cover;
+    height: 700px;
+}
+
+
 /* Carousel */
 
 .carousel-item {
@@ -27,23 +53,18 @@
 
 .carousel-image-1 {
     background: url('../img/image1.jpg');
-    background-color: rgba(32,32,32,.4);
     background-size: cover;
 }
 
 .carousel-image-2 {
     background: url('../img/image2.jpg');
     background-size: cover;
+    filter: .4;
 }
 
 .carousel-image-3 {
     background: url('../img/image3.jpg');
     background-size: cover;
-}
-
-.header-overlay {
-    background-color: rgba(31,31,31,.9);
-    background-size: 700px;
 }
 
 .carousel-item h2 {
