@@ -115,7 +115,7 @@ body {
 /* Services */
 
 #services {
-    min-height: 700px;
+    min-height: 100px;
     color: rgb(233, 227, 227);
 }
 
