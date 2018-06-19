@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Animate CSS Library -->
+    <link rel="stylesheet" href="/css/animate.css">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Adamina|Quicksand|Montserrat:300,400" rel="stylesheet">
 
@@ -25,26 +28,26 @@
 
     <nav class=" nav navbar sticky-top navbar-expand-sm navbar-light" style="background-color: rgba(#fff) position-fixed">
         <div class="container">
-            <a href="index.html" class="navbar-brand elegant">GRUPO SERI</a>
+            <a href="#landing-page" class="navbar-brand elegant btn-landing">GRUPO SERI</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item ">
-                        <a href="" class="nav-link">Acerca de Seri</a>
+                        <a href="#footer" class="nav-link hov-anim">Acerca de Seri</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#services" class="nav-link">Servicios</a>
+                        <a href="#services" class="nav-link hov-anim">Servicios</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="about.html" class="nav-link">Trabaja en Seri</a>
+                        <a href="#services" class="nav-link hov-anim">Trabaja en Seri</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="mission.html" class="nav-link">Beneficios</a>
+                        <a href="#contact-us" class="nav-link hov-anim">Beneficios</a>
                     </li>
                     <li class="nav-item ">
-                        <a href="#contact-us" class="nav-link">Contacto</a>
+                        <a href="#contact-us" class="nav-link hov-anim">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -56,11 +59,11 @@
         <div class="header-overlay">
             <div class="container">
                 <div class="title">
-                    <h2 class="display-3 elegant">Somos Grupo Seri</h2>
+                    <h2 class="display-3">Somos Grupo Seri</h2>
                     <p class="lead">
                         Servicio en toda la Nación!
                     </p>
-                    <a href="" class="btn">Servicios</a>
+                    <a href="#services" class="btn btn-landing">Servicios</a>
                 </div>
             </div>
         </div>
@@ -193,7 +196,7 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
         <div class="container">
             <h2>Grupo Seri</h2>
         </div>
@@ -218,6 +221,9 @@
         </div>
     </footer>
 
+    <!-- WOW JQuery Library -->
+    <script src="/js/wow.min.js"></script>
+
     <!-- jQuery CDN -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -233,6 +239,8 @@
     integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
 
+    <!-- Custom Script (JavaScript File) -->
+    <script src="/js/main.js"></script>
 
     <script src="">
         $('#year').text(new Date().getFullYear());

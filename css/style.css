@@ -44,14 +44,21 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color: #1a0077 !important;        
     letter-spacing: 2px;
+    background-size: 100%;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color: black !important;        
-    letter-spacing: 2px;
-    background: rgb(236, 236, 238);
-    border-radius: 1px;
-    transition: .5s;
+.hov-anim::after {
+    content: '';
+    display: block;
+    width: 0;
+    height:1px;
+    background: #1a0077;
+    transition: width .3s;
+}
+
+.hov-anim:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 /* landing page */
