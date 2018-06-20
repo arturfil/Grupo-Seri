@@ -24,6 +24,11 @@ body {
 
 /* Nav-bar */
 
+.navbar img {
+    height: 45px;
+    width: 45px;
+}
+
 .navbar a { 
     text-transform: uppercase;
     font-weight: 400;
@@ -68,7 +73,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 700px;
+    min-height: 1000px;
 }
 
 #landing-page h2 {
@@ -80,7 +85,7 @@ body {
 .header-overlay {
     background-color: rgba(216, 216, 216, 0.8);
     background-size: cover;
-    height: 700px;
+    min-height: 1000px;
 }
 
 .title {
@@ -117,6 +122,7 @@ body {
 #services {
     min-height: 100px;
     color: rgb(233, 227, 227);
+    padding-bottom: 40px;
 }
 
 .services-block {
@@ -177,6 +183,7 @@ body {
 #about-us {
     min-height: 500px;
     background-color: rgb(225, 228, 255);
+
 }
 
 #about-us .title {
@@ -192,6 +199,11 @@ body {
 #about-us .general {
     text-align: left;
     margin: 10px 0 40px 0;
+}
+
+#about-us .container-fluid {
+    padding: 0;
+    margin: 0;
 }
 
 #about-us h3 {
@@ -229,11 +241,110 @@ body {
     opacity: .4;
 }
 
+/* Who We Are */
+
+#who-we-are {
+    min-height: 800px;
+    background-color: white;
+
+}
+
+#who-we-are h1 {
+    text-align: center;
+    padding-top: 120px;
+    color: black;
+}
+
+#who-we-are hr {
+    margin-top: 40px;
+}
+
+#who-we-are .first-row {
+    margin-top: 60px;
+}
+
+#who-we-are .left {
+    padding-left: 30%;
+    text-align: justify;
+    font-weight: 100 !important;
+    letter-spacing: .2px;    
+    color: #32212b96;
+    font-size: 18px;
+}
+
+#who-we-are .right {
+    font-size: 40px;
+    font-weight: 400;
+    color: #21048a;
+
+}
+
+#who-we-are h3 {
+    margin-top: 40px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Filosophy */
+
+#philosophy {
+    min-height: 500px;
+    background-color: rgb(219, 245, 255);
+}
+
+#philosophy .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#philosophy .container {
+    width: 80%;
+}
+
+#philosophy .title {
+    color: black;
+    text-align: left;   
+    text-transform: uppercase;
+    margin-top: 120px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+#philosophy .general {
+    text-align: left;
+    margin: 10px 0 40px 0;
+}
+
+#philosophy h3 {
+
+    text-transform: uppercase;
+}
+
+#philosophy p {
+    text-align: justify;
+    font-weight: 100 !important;
+    letter-spacing: .2px;    
+    color: #32212b96;
+    font-size: 18px;
+}
+
+#philosophy .image-values {
+    min-height: 500px;
+    background-image: url('/img/values.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    opacity: .4;
+}
+
 /* Our Clients */
 
 #our-clients {
-    min-height: 700px;
-    background-color: rgb(235, 235, 235);
+    min-height: 800px;
+    background-color: rgb(241, 241, 241);
 }
 
 #our-clients .title {
@@ -257,7 +368,7 @@ body {
 
 #our-clients img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
@@ -423,6 +534,21 @@ footer i {
     #contact-us input {
         border: 1px solid lightgrey;
     }
+
+    #who-we-are .container-fluid .left {
+        padding-left: 0;
+        text-align: justify;
+        margin: 0 auto;
+        width: 90%
+    }
+
+    #who-we-are .right {
+        text-align: justify;
+        font-size: 18px;
+        width: 80%;
+    }
+
+
 }
 
 
