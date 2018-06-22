@@ -395,7 +395,7 @@ body {
     font-size: .875rem;
     line-height: 1.7;
     text-rendering: optimizeLegibility;
-    text-align: justify;
+    text-align: center;
     content: "";
 }
 
@@ -617,6 +617,10 @@ footer i {
     #our-clients img {
         height: 200px;
 
+    }
+
+    #staff-services p {
+        text-align: center;
     }
 
 
