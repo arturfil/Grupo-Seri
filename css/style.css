@@ -254,6 +254,7 @@ body {
     text-align: center;
     padding-top: 120px;
     color: black;
+    text-transform: uppercase;
 }
 
 #who-we-are hr {
@@ -410,7 +411,8 @@ body {
 
 #our-clients {
     min-height: 800px;
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(241, 241, 241); */
+    /* background-color: rgb(248, 245, 245); */
 }
 
 #our-clients .title {
