@@ -463,10 +463,6 @@ body {
     background-color: rgb(225, 228, 255);
 }
 
-#benefits .box {
-    padding-bottom: 40px;
-}
-
 #benefits h2 {
     padding-top: 80px;
     text-align: center;
@@ -475,6 +471,20 @@ body {
 
 #benefits hr {
     margin-bottom: 40px;
+}
+
+#benefits .icons {
+    margin-left: 35%;
+}
+
+#benefits i {
+    margin-right: 20px;
+}
+
+#benefits p {
+    margin-right: 20%;
+    margin-bottom: 20px;
+
 }
 
 /* Our Clients */
@@ -654,7 +664,7 @@ footer i {
 
 /* Media Queries */
 
-@media only screen and (min-width: 1024px) and (max-width: 676px) {
+@media only screen and (max-width: 1024px) and (min-width: 676px) {
     #contact-us form {
         width: 40%;
     }
@@ -662,6 +672,7 @@ footer i {
     #contact-us input {
         border: 1px solid lightgrey;
     }
+
 }
 
 @media only screen and (max-width: 676px) and (min-width: 320px) {
@@ -685,6 +696,14 @@ footer i {
         font-size: 18px;
         width: 80%;
     }
+
+    /* #benefits .box, p {
+        text-align: justify;
+    }
+
+    #benefits .box, i {
+        text-align: center;
+    } */
 
     #our-clients img {
         height: 200px;
