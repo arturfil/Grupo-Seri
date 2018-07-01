@@ -542,6 +542,8 @@ body {
     text-rendering: optimizeLegibility;
     text-align: justify;
     content: "";
+    width: 80%;
+    margin: 0 auto;
 }
 
 .services-block p:after {
